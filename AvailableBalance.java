@@ -11,8 +11,8 @@
 public class AvailableBalance {
     public static int totalBalance;
     
-    public  void increasedBalance(int amount){
-        totalBalance+=amount;
+    public  void increasedBalance(int amounts){
+        totalBalance+=amounts;
     }
     public void decreasedBalance(int amount){
         totalBalance-=amount;
