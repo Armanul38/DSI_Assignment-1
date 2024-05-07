@@ -21,7 +21,7 @@ public class Operation {
     
     public void AddProduct(int productName,int price_buy,int price_sell,int AvailableNumber){
         Product_class product=new Product_class(productName,price_buy,price_sell,AvailableNumber);
-        System.out.println("arman");
+
         productList.put(productName,product);
         
     }
